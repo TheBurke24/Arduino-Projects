@@ -6,7 +6,7 @@ void setup() {
   // initialize digital pins 13,10,8 as an output.
   pinMode(13, OUTPUT);
   pinMode(10, OUTPUT);
-  pinMode(18, OUTPUT);
+  pinMode(8, OUTPUT);
 }
 
 // the loop function runs over and over again forever
