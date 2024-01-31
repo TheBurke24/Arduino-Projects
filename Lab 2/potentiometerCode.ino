@@ -15,6 +15,6 @@ void loop() {
   digitalWrite(13, HIGH); // turn the ledPin on
   delay(potValue); // stop the program for for <potValue> milliseconds:
   
-  digitalWrite(13, LOW);
+  digitalWrite(13, LOW); // turn the ledPin off
   delay(potValue); 
 }
