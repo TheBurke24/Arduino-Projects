@@ -1,21 +1,20 @@
+// Circuit 2 by Alex Burke (1/31/24)
+// Using a potentiometer to control the blinking speed of a LED.
+// Encountered issues with placement of 5v and GND wires to potentiometer. Resolved quickly.
 
-
-int sensorValue;  // variable to store the value coming from the sensor
+int potValue;  // create variable to store the value coming from the potentiometer
 
 void setup() {
-  // declare the ledPin as an OUTPUT:
-  pinMode(13, OUTPUT);
+  pinMode(13, OUTPUT); // declare the ledPin as an OUTPUT:
 }
 
 void loop() {
 
   sensorValue = analogRead(0);
-  // turn the ledPin on
-  digitalWrite(13, HIGH);
-
-  delay(sensorValue);
+  
+  digitalWrite(13, HIGH); // turn the ledPin on
+  delay(potValue); // stop the program for for <potValue> milliseconds:
   
   digitalWrite(13, LOW);
-  // stop the program for for <sensorValue> milliseconds:
-  delay(sensorValue);
+  delay(potValue); 
 }
