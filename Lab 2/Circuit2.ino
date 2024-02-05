@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
 
-  sensorValue = analogRead(0);
+  potValue = analogRead(0);
   
   digitalWrite(13, HIGH); // turn the ledPin on
   delay(potValue); // stop the program for for <potValue> milliseconds:
