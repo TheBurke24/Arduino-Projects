@@ -1,4 +1,6 @@
-// C++ code
+// Circuit 3 by Alex Burke (2/4/24).
+// Utilizing an RGB LED to show different colors.
+// No issues encountered while setting up circuit or coding.
 
 int redLED = 13;
 int blueLED = 10;
