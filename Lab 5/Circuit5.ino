@@ -1,4 +1,6 @@
-// Circuit 5 By Alex Burke
+// Circuit 5 by Alex Burke (2/6/24).
+// Utilizing buttons to control an LED.
+// Encountered issues with coding and using conditional statements.
 
 int button1State = 0;
 int button2State= 0;
